@@ -1,3 +1,62 @@
+body{
+	min-height: 1500px;
+	background-image: url("http://manuel-valles.com/project/localWeather/img/sunny.jpg") ;
+	background-repeat:  no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 180%;
+}
+.containerV{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.containerH{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
 h1{
-	color: red;
+	margin-top: 200px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+h2{
+	color: #663300;
+}
+#icon{
+  font-size: 180%;
+}
+#weather{
+	font-size: 180%;
+	margin-right: 100px;
+	margin-left: 20px;
+}
+#tempC{
+	font-size: 200%;
+	font-weight: bold;
+	margin-right: 10px;
+}
+#swapC{
+	font-size: 130%;
+}
+#swapF{
+	font-size: 80%;
+	color: black;
+}
+#speedKph{
+	font-size: 160%;
+	margin-left: 20px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+#swapKph{
+	font-size: 90%;
+}
+#swapMph{
+	font-size: 60%;
+	color: black;
 }
